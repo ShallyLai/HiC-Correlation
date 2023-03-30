@@ -1,4 +1,4 @@
-# tool to extract matrix from .hic files
+# TODO: tool to extract matrix from .hic files
 # file path of straw form Juicer
 # must need the absolute path 
 straw="/Users/shallylai/Juicer/straw-master/bin/Mac/straw"
@@ -10,19 +10,19 @@ cd data
 mkdir $1
 cd ..
 
-# mapping tools' name
+# TODO: mapping tools' name
 declare -a Tools=("hicpro" "hicup" "hicpipe" "hickit" "5" "5SP")
 
 # path of Hi-C data
 HiC_data_Path="/Users/shallylai/Special_Topics/HiC"
 
-# loop for HiC map normalization methods
+# TODO: loop for HiC map normalization methods
 for nor in NONE #VC VC_SQRT KR
 do
-	# chromosome we want to get
+	# TODO: chromosome we want to get
 	for chr in 1 22 
 	do
-		# HiC binszies
+		# TODO: HiC binszies
 		for bin_size in 10 #25 
 		do
 			echo "Process: " $nor $chr ${bin_size}000
