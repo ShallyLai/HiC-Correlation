@@ -5,7 +5,7 @@ https://github.com/aidenlab/straw
 ## Step 2: extract matrix from _.hic_ files
 Example
 ```
-./run4GenData.sh Rao
+bash run4GenData.sh Rao
 ```
 ## Step 3: modify _.list_ files
 List the matrix which extracted from straw (i.e _.txt_ files) you want to compare into _.list_.  
@@ -24,7 +24,7 @@ Bin3C_5SP data/Rao/Rao_5SP_NONE_chr1_10kb.txt
 ## Step 4: run correlation codes
 Example
 ```
-./run4analysis.sh Rao
+bash run4analysis.sh Rao
 ```
 or
 ```
